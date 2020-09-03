@@ -1,4 +1,12 @@
 def perceint(a, b):
+    """
+    Parameters
+    ----------
+    a : number
+        The percent
+    b : number
+        Of the amount you want
+    """
     return a/100 * b
 
 def sum(a,b):
