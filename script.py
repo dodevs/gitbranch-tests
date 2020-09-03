@@ -1,3 +1,6 @@
+def power(a, b):
+    return a ** b
+
 def squart(n):
     return n ** (1/2)
 
@@ -24,6 +27,7 @@ def main():
     print(f"15% of 200 is {perceint(15, 200)}")
     print(f"Div of 10 by 5 is {div(10,5)}")
     print(f"Square root of 25 is {squart(25)}")
+    print(f"4 to 2 power is {power(4, 2)}")
 
 if __name__ == "__main__":
     main()
